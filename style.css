@@ -13,7 +13,7 @@ body{
     font-family: "Gill Sans", sans-serif;
 }
 
-.description{
+section{
     width: 70vw;
     height: 60vh;
     border-radius: 10px;
@@ -74,4 +74,23 @@ body{
 .arrow:hover{
     background-color: #f1f1ff;
     transition: 0.3s;
+}
+
+.pagination{
+    user-select: none;
+    display: flex;
+    position: absolute;
+    bottom: 5%;
+    width: 60px;
+    align-items: space-between;
+    justify-content: center;
+}
+
+.pagination > h1{
+    color: aqua;
+    font-size: 4.02rem;
+}
+
+.pagination > h1:hover{
+    color: #f1f1ff;
 }
