@@ -9,7 +9,7 @@
     <!-- Include custom CSS file -->
   </head>
   <body>
-    <nav class="bg-gray-900 text-white py-4">
+    <nav class="py-4 border-b">
       <div class="container mx-auto flex items-center px-4">
         <h1 class="text-2xl font-bold flex items-end">
           Portofolio
@@ -17,26 +17,17 @@
             class="w-[7px] h-[7px] bg-green-400 mb-[6px] ml-[5px] rounded-full"
           ></div>
         </h1>
-        <ul class="flex gap-4 ml-6">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
       </div>
     </nav>
-    <main class="container mx-auto my-8 px-4">
-      <div class="flex items-center justify-evenly">
-        <div>
+    <main class="container mx-auto my-16 px-4">
+      <div class="flex items-start justify-center gap-14 flex-wrap">
+        <div class="flex flex-col items-center">
           <div
-            class="rounded-full relative overflow-hidden w-48 border border-2 border-gray-200"
+            class="rounded-full mb-6 border border-4 border-blue-500 p-2 relative overflow-hidden w-48"
           >
-            <img
-              class="rounded-full"
-              src="images/275288901_947344679479337_7949038454552372317_n.jpg"
-            />
+            <img class="rounded-full" src="images/me.jpg" />
           </div>
-          <h1 class="text-center font-bold text-2xl mt-4">Saadaoui Salah</h1>
+          <h1 class="font-bold text-2xl">Saadaoui Salah</h1>
           <div class="flex gap-2 mt-6">
             <img
               class="w-10 -h-10 bg-slate-200 p-1 rounded-full"
@@ -47,6 +38,12 @@
             <img
               class="w-10 -h-10 bg-slate-200 p-2 rounded-full"
               src="images/docker.png"
+              alt=""
+              srcset=""
+            />
+            <img
+              class="w-10 -h-10 bg-slate-200 p-2 rounded-full"
+              src="images/github.png"
               alt=""
               srcset=""
             />
@@ -64,12 +61,17 @@
             />
           </div>
         </div>
-        <div class="max-w-[400px]">
-          <h2 class="text-3xl font-bold mb-4">About Me</h2>
+        <div class="max-w-[600px] px-4 mt-6">
+          <h2 class="text-3xl border-b-4 boreder-blue-500 pb-4 font-bold mb-4">
+            About Me
+          </h2>
           <p class="mb-8">
-            I am a web developer with experience in HTML, CSS, JavaScript, and
-            React. I am passionate about creating responsive and accessible
-            websites that provide great user experience.
+            I am a dedicated Full Stack Web Developer with a passion for
+            crafting user-friendly web applications. I excel in intuitive UI
+            design, smooth data flow, and efficient database management.
+            Constantly learning and adapting to new trends, I value teamwork and
+            aim to create impactful web solutions. Let's build something amazing
+            together! [Email/LinkedIn/GitHub]
           </p>
         </div>
       </div>
@@ -77,21 +79,37 @@
       <div class="flex flex-wrap -mx-4">
         <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
           <a href="#">
-            <img src="./images/comercify.png" alt="Project 1" />
-            <h3 class="text-xl font-bold mt-2">Comercify</h3>
+            <img
+              class="rounded-md w-[400px] h-[200px]"
+              src="./images/comercify.png"
+              alt="Project 1"
+            />
+            <h3
+              class="text-xl px-2 font-bold mt-2 hover:underline hover:text-blue-400 hover:underline-offset-4"
+            >
+              Comercify
+            </h3>
           </a>
         </div>
         <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
           <a href="#">
-            <img src="https://via.placeholder.com/500x300" alt="Project 2" />
-            <h3 class="text-xl font-bold mt-2">Folio</h3>
+            <img
+              class="rounded-md w-[400px] h-[200px]"
+              src="./images/folio.png"
+              alt="Project 2"
+            />
+            <h3
+              class="text-xl px-2 font-bold mt-2 hover:underline hover:text-blue-400 hover:underline-offset-4"
+            >
+              Folio
+            </h3>
           </a>
         </div>
       </div>
     </main>
-    <footer class="bg-gray-900 text-white py-4">
+    <footer class="bg-gray-900 py-4">
       <div class="container mx-auto px-4">
-        <p class="text-center">&copy; 2023 My Personal Website</p>
+        <p class="text-center text-white">&copy; 2023 Saadaoui Salah</p>
       </div>
     </footer>
     <!-- Include JavaScript file -->
